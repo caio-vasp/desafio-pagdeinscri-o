@@ -143,6 +143,21 @@ footer {
     }
 }
 
+@media (max-width: 768px) {
+    body {
+        margin: 20px auto;
+        padding: 15px;
+    }
+
+    header, main, footer {
+        padding: 18px;
+    }
+
+    #titulo h1 {
+        font-size: 1.5rem;
+    }
+}
+
 
 @media (max-width: 580px) {
     body {
